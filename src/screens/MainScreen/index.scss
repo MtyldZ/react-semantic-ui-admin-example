@@ -1,0 +1,53 @@
+.main-screen-container {
+  background: darkslategray;
+  min-height: 100vh;
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+
+    h1.ui.header {
+      margin-bottom: 16px;
+    }
+  }
+
+
+  .table-container {
+    padding: 8px;
+  }
+
+  .form-container {
+    background-color: cadetblue;
+    padding: 12px;
+  }
+}
+
+.custom-cell-ball {
+  border-radius: 25px;
+  opacity: 0.80;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.back-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 12px 16px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+
+  &:hover {
+    transition: .5s;
+    color: aqua;
+    cursor: pointer;
+  }
+
+}
